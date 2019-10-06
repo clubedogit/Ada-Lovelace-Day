@@ -1,0 +1,254 @@
+header{
+    display: none;
+}
+
+body{
+    background-image: url(images/ada-site-desktop-fundo.png);
+    margin: 0;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+}
+
+section .logo{
+    margin: 40px;
+}
+
+.logo img{
+    width: 55%;
+}
+
+.ada img{
+    margin-top: -135px;
+    width: 100%;
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -48px;
+}
+.text p{
+    color: #fff;
+    font-family: "Gotham-Light";
+    font-size: 12pt;
+    line-height: 23px;  
+    width: 280px;
+}
+
+#p{
+    font-family: "Gotham-Medium";
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.message{
+    align-items: center;
+    border: 3px solid #ff005a;
+    display: flex;
+    height: 400px;
+    width: 70%;
+}
+.message div{
+    color: white;
+    font-family: "Gotham-Book";
+    font-size: 10pt;
+    font-style: italic;
+    margin: 20px;
+    width: 590px;
+}
+
+button{
+    background-color: #ff005a;
+    border: none;
+    box-shadow: 8px 8px #f2ce30;  
+    color: #fff;
+    cursor: pointer;
+    font-family: "Gotham-Ultra";
+    font-size: 16pt;
+    margin-top: 15px;
+    height: 45px;
+    width: 180px;
+}
+
+.contact{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: "Gotham-Light";
+    font-size: 12pt;
+    height: 200px;
+    margin-top: 40px;
+    width: 100%;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    margin-left:28%;
+}
+.contact img{
+    width: 60%;   
+}
+
+@media(min-width: 768px){
+    .contact img{
+        width: 40%;   
+    }
+    .center{
+        margin-left:38%;
+    }
+}
+@media(min-width: 1000px){
+    section{
+        display:none;
+    }
+
+    body{
+        background-image: url(images/ada-site-desktop-fundo.png);
+        margin: 0;
+        overflow-y: hidden;
+        width: 100vw;
+    }
+
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header div img{
+        width: 20%;
+    }
+
+    header .ada{
+        display: none;
+    }
+    .ada-content{
+        display: flex;
+        justify-content: end;
+    }
+    header .ada-desktop{
+        display: flex;
+        justify-content: end;
+        width:500px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 680px;
+        align-items: center;
+    }
+    
+    .text-content{
+        display: flex;
+        margin-top: 35px;
+    }
+    
+    .text{
+        width: 247px;
+        margin-top:-8px;
+        padding-right:59px;
+        align-items: initial;
+    }
+    
+    .text img{
+        width:100px;
+    }
+    
+    .text p{
+        color: #fff;
+        font-family: "Gotham-Light";
+        font-size: 11pt;
+        line-height: 23px;
+        width: 254px;
+        
+    }
+    
+    #p{
+        font-family: "Gotham-Medium";
+        width: 254px;
+
+    }
+    
+    .logo img{
+        width:400px;
+        position: absolute;
+    }
+    .box-content{
+        display: flex;
+        width: 600px;
+        height: 330px;
+        align-items: center;
+        margin-left: 287px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        margin-right: 15px;
+        align-items: center;
+    }
+    .box button{
+        background-color: #ff005a;
+        border: none;
+        box-shadow: 8px 8px #f2ce30;  
+        color: #fff;
+        font-family: "Gotham-Ultra";
+        font-size: 20pt;
+        margin-top: 15px;
+        height: 50px;
+        width: 180px;
+        cursor: pointer;
+    }
+    .box .message{
+        background-color: transparent;
+        border: 3px solid #ff005a;
+        height: 150px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .message div{
+        color: white;
+        font-family: "Gotham-Book";
+        width: 590px;
+        font-size: 10pt;
+        font-style: italic;
+        margin: 20px;
+
+    }
+    .her-day img{
+        width: 120px;
+        padding-bottom: 45px;
+    }
+}
+
+@font-face{
+    font-family: "Gotham-Book";
+    src: url(./fonts/Gotham-Book.otf);
+
+}
+@font-face{
+    font-family: "Gotham-Ultra";
+    src: url(./fonts/Gotham-Ultra.otf); 
+}
+
+@font-face{
+    font-family: "Gotham-Medium";
+    src: url(./fonts/Gotham-Medium.otf); 
+}
+
+@font-face{
+    font-family: "Gotham-Light";
+    src: url(./fonts/Gotham-Light.otf); 
+}
