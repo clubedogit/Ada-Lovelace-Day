@@ -58,7 +58,7 @@ section .logo{
 .message div{
     color: white;
     font-family: "Gotham-Book";
-    font-size: 10pt;
+    font-size: 13pt;
     font-style: italic;
     margin: 20px;
     width: 590px;
@@ -223,7 +223,7 @@ button{
         color: white;
         font-family: "Gotham-Book";
         width: 590px;
-        font-size: 10pt;
+        font-size: 13pt;
         font-style: italic;
         margin: 20px;
 
